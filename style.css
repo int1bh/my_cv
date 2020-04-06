@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 1300px;
+    height: 3386px;
+    margin: 0 auto;
+}
+
+.section1 {
+    width: 1300px;
+    height: 586px;
+    background-image: url(img/bg_section1.jpg);
+}
+
+.section2 {
+    width: 1300px;
+    height: 586px;
+    background-color: rgb(209, 204, 204);
+}
+
+.menu {
+    width: 55px;
+    height: 33px;
+    margin-left: 85px;
+    margin-top: 46px;
+    float: left;
+}
+
+.info {
+    float: left;
+    margin-top: 80px;
+}
+
+.name {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 46px;
+    margin-left: 696px;
+    /* margin-top: 10px; */
+    /* margin-bottom: 10px; */
+    float: left;
+}
+
+.rect1 {
+    margin-left: 693px;
+    margin-top: 10px;
+    float: left;
+}
+
+.rect2 {
+    margin-left: 693px;
+    margin-top: 10px;
+    float: left;
+}
+
+.special {
+    float: left;
+    margin-left: 693px;
+    margin-top: 5px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 36.48px;
+    text-transform: uppercase;
+}
+
+.hire {
+    background-color: #fb6470;
+    margin-left: 790px;
+    margin-top: 15px;
+    float: left;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    position: relative;
+    height: 50px;
+    width: 150px;
+
+}
+
+/* .hire:before {
+	content:'';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 50px;
+	background: rgba(255,255,255,0.3);
+	border-radius: 10px;
+	transition: all 2s ease;
+}
+
+.hire:hover:before {
+	width: 100%;
+} */
+
+.text {
+    display: inline-block;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 36.48px;
+    text-decoration: none;
+    /* padding: 8px; */
+}
+
+.about {
+    float: left;
+    margin-left: 85px;
+    margin-top: 50px;
+    width: 600px;
+}
+
+#about_me {
+    color: #3e3e3e;
+    font-family: "Raleway - Semi Bold";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36.48px;
+}
+
+#me {
+    color: #3e3e3e;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+
+ul > li {
+    list-style-type: none;
+}
+
+.list_item {
+    color: #3e3e3e;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 50px;
+    /* Text style for "N, ame :," */
+    font-family: "Raleway - Semi Bold";
+    font-weight: 400;
+    /* Text style for "Al Rayhan" */
+    font-family: "Raleway - Medium";
+    font-weight: 500;
+}
+
+.photo {
+    float: left;
+    margin-top: 30px;
+    margin-left: 35px;
+}
