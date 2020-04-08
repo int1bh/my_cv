@@ -31,6 +31,18 @@ body {
     background-color: rgb(209, 204, 204);
 }
 
+.section3 {
+    height: 920px;
+    padding-top: 50px;
+    padding-left: 85px;
+    position: relative;
+}
+
+.section4 {
+    background-color: #fb6470;
+    height: 400px;
+}
+
 .menu {
     width: 55px;
     height: 33px;
@@ -128,7 +140,7 @@ body {
     width: 600px;
 }
 
-#about_me {
+.about_me {
     color: #3e3e3e;
     font-family: "Raleway - Semi Bold";
     font-size: 32px;
@@ -145,7 +157,7 @@ body {
     margin-bottom: 15px;
 }
 
-ul > li {
+ul>li {
     list-style-type: none;
 }
 
@@ -167,4 +179,132 @@ ul > li {
     float: left;
     margin-top: 30px;
     margin-left: 35px;
+}
+
+.exp {
+    float: left;
+    /* margin-left: 85px; */
+    /* margin-top: 50px; */
+    width: 1214px;
+    height: 920px;
+}
+
+.bubble1 {
+    position: absolute;
+    top: 297px;
+    left: 165px;
+    background-image: url(img/Rounded_Rectangle_4.png);
+    width: 512px;
+    height: 147px;
+}
+
+.bubble2 {
+    position: absolute;
+    top: 637px;
+    left: 165px;
+    background-image: url(img/Rounded_Rectangle_4.png);
+    width: 512px;
+    height: 147px;
+}
+
+.bubble3 {
+    position: absolute;
+    top: 179px;
+    right: 46px;
+    background-image: url(img/Rounded_Rectangle_5.png);
+    width: 512px;
+    height: 147px;
+}
+
+.bubble4 {
+    position: absolute;
+    top: 528px;
+    right: 46px;
+    background-image: url(img/Rounded_Rectangle_5.png);
+    width: 512px;
+    height: 147px;
+}
+
+.line {
+    position: absolute;
+    left: 689px;
+    top: 199px;
+}
+
+.position {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 62.78px;
+    width: 440px;
+    height: 17px;
+    margin-left: 20px;
+    margin-top: -10px;
+    margin-bottom: -6px;
+
+}
+
+.period {
+    color: #fb6470;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 62.78px;
+    text-transform: uppercase;
+    width: 440px;
+    height: 17px;
+    margin-left: 20px;
+    margin-top: -2px;
+}
+
+.description {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.62px;
+    width: 440px;
+    height: 17px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.position1 {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 62.78px;
+    width: 440px;
+    height: 17px;
+    margin-left: 60px;
+    margin-top: -10px;
+    margin-bottom: -6px;
+
+}
+
+.period1 {
+    color: #fb6470;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 62.78px;
+    text-transform: uppercase;
+    width: 440px;
+    height: 17px;
+    margin-left: 60px;
+    margin-top: -2px;
+}
+
+.description1 {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.62px;
+    width: 440px;
+    height: 17px;
+    margin-left: 60px;
+    margin-top: 10px;
 }
