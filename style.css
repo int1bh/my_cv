@@ -21,26 +21,39 @@ body {
 
 .section1 {
     width: 1300px;
-    height: 586px;
+    height: 430px;
     background-image: url(img/bg_section1.jpg);
 }
 
 .section2 {
     width: 1300px;
     height: 586px;
-    background-color: rgb(209, 204, 204);
+    background-color: #f9f9f9;
 }
 
 .section3 {
-    height: 920px;
+    height: 790px;
     padding-top: 50px;
     padding-left: 85px;
     position: relative;
 }
 
 .section4 {
-    background-color: #fb6470;
-    height: 400px;
+    height: 455px;
+    padding-top: 50px;
+    padding-left: 85px;
+    position: relative;
+    background-color: #f9f9f9;
+}
+
+.section5 {
+    background-color: #000000;
+    height: 428px;
+}
+
+.footer {
+    background-color: #f9f9f9;
+    height: 428px;
 }
 
 .menu {
@@ -182,11 +195,13 @@ ul>li {
 }
 
 .exp {
-    float: left;
-    /* margin-left: 85px; */
-    /* margin-top: 50px; */
     width: 1214px;
-    height: 920px;
+    height: 790px;
+}
+
+.edu {
+    width: 1214px;
+    height: 455px;
 }
 
 .bubble1 {
@@ -225,7 +240,8 @@ ul>li {
     height: 147px;
 }
 
-.line {
+.line,
+.line2 {
     position: absolute;
     left: 689px;
     top: 199px;
