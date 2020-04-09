@@ -47,13 +47,15 @@ body {
 }
 
 .section5 {
-    background-color: #000000;
+    padding-top: 50px;
+    padding-left: 85px;
+    background-color: #1b1a1a;
     height: 428px;
 }
 
 .footer {
     background-color: #f9f9f9;
-    height: 428px;
+    height: 540px;
 }
 
 .menu {
@@ -76,8 +78,6 @@ body {
     font-weight: 400;
     line-height: 46px;
     margin-left: 696px;
-    /* margin-top: 10px; */
-    /* margin-bottom: 10px; */
     float: left;
 }
 
@@ -143,7 +143,6 @@ body {
     font-weight: 500;
     line-height: 36.48px;
     text-decoration: none;
-    /* padding: 8px; */
 }
 
 .about {
@@ -155,6 +154,14 @@ body {
 
 .about_me {
     color: #3e3e3e;
+    font-family: "Raleway - Semi Bold";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36.48px;
+}
+
+.my_skills {
+    color: #ffffff;
     font-family: "Raleway - Semi Bold";
     font-size: 32px;
     font-weight: 400;
@@ -180,10 +187,8 @@ ul>li {
     font-size: 18px;
     font-weight: 500;
     line-height: 50px;
-    /* Text style for "N, ame :," */
     font-family: "Raleway - Semi Bold";
     font-weight: 400;
-    /* Text style for "Al Rayhan" */
     font-family: "Raleway - Medium";
     font-weight: 500;
 }
@@ -202,6 +207,11 @@ ul>li {
 .edu {
     width: 1214px;
     height: 455px;
+}
+
+.skills {
+    height: 427px;
+    position: relative;
 }
 
 .bubble1 {
@@ -323,4 +333,159 @@ ul>li {
     height: 17px;
     margin-left: 60px;
     margin-top: 10px;
+}
+
+.progress_wrapper {
+    position: absolute;
+    top: 100px;
+}
+
+.progress_wrapper2 {
+    position: absolute;
+    top: 200px;
+}
+
+.progress_wrapper3 {
+    position: absolute;
+    top: 300px;
+}
+
+.progress_wrapper4 {
+    position: absolute;
+    top: 100px;
+    left: 640px;
+}
+
+.progress_wrapper5 {
+    position: absolute;
+    top: 200px;
+    left: 640px;
+}
+
+.progress_wrapper6 {
+    position: absolute;
+    top: 300px;
+    left: 640px;
+}
+
+.progress {
+    position: relative;
+    width: 450px;
+    height: 20px;
+    overflow: hidden;
+    background: #fb6470;
+    border-radius: 30px;
+}
+
+.strips {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: 6px 100%;
+}
+
+.grayback {
+    position: relative;
+    left: 57%;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.grayback2 {
+    position: relative;
+    left: 35%;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.grayback3 {
+    position: relative;
+    left: 10%;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.grayback4 {
+    position: relative;
+    left: 85%;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.grayback5 {
+    position: relative;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.grayback6 {
+    position: relative;
+    left: 90%;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.indentation {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 17.19px;
+    margin-bottom: 18px;
+}
+
+.decor {
+    position: relative;
+    position: relative;
+    width: 510px;
+    height: 490px;
+    margin-left: 30px;
+    border-radius: 30px;
+}
+
+.form-inner {
+    padding: 50px;
+    padding-top: 20px;
+}
+
+.form-inner input,
+.form-inner textarea {
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    background: #353541;
+    line-height: 55px;
+    border-width: 0;
+    border-radius: 20px;
+    font-family: "Raleway - Medium Italic";
+}
+
+.form-inner input[type="submit"] {
+    margin-top: 30px;
+    background: #fb6470;
+    color: white;
+    font-size: 14px;
+}
+
+.form-inner textarea {
+    resize: none;
+}
+
+.form-inner h3 {
+    margin-top: 0;
+    font-family: "Raleway - Semi Bold";
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 50px;
+    color: #3e3e3e;
 }
