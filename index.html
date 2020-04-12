@@ -13,13 +13,17 @@
 <body>
     <div class="container">
         <div class="section1">
-            <a href="#"><img class="menu clearfix" src="img/menu.png" alt="menu"></a>
+            <div class="menu-wrapper">
             <ul class="main-menu">
-                <li class="menu-item">Обо мне</li>
-                <li class="menu-item">Опыт работы</li>
-                <li class="menu-item">Образование</li>
-                <li class="menu-item">Мои навыки</li>
+                <li class="menu-item"><<img src="img/menu.png" alt="menu">
+                <ul class="menu-hidden">
+                    <li class="hidden-item"><a href="#about-me" class="a">Обо мне</a></li>
+                    <li class="hidden-item"><a href="#exp" class="a">Опыт работы</a></li>
+                    <li class="hidden-item"><a href="#education" class="a">Образование</a></li>
+                    <li class="hidden-item"><a href="#skills" class="a">Мои навыки</a></li>
+                </ul></li>
             </ul>
+        </div>
             <div class="info clearfix">
                 <img class="rect1 clearfix" src="img/Rectangle_49.png" alt="Rectangle_49">
                 <p class="name">Дрягин Александр</p>
@@ -32,7 +36,7 @@
         </div>
         <div class="section2">
             <div class="about clearfix">
-                <h2 class="about_me">Обо мне</h2>
+                <h2 class="about_me" id="about-me">Обо мне</h2>
                 <img class="rect3" src="img/Rectangle_43.png" alt="Rectangle_43">
                 <p id="me">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ratione quam exercitationem
                     libero dignissimos! Voluptatibus, delectus quos, a dicta eveniet quaerat soluta placeat debitis
@@ -53,7 +57,7 @@
         </div>
         <div class="section3">
             <div class="exp clearfix">
-                <p class="about_me">Опыт работы</p>
+                <p class="about_me" id="exp">Опыт работы</p>
                 <img class="rect3" src="img/Rectangle_43.png" alt="Rectangle_43">
                 <div class="bubble1">
                     <p class="position">Lorem, ipsum.</p><br>
@@ -81,7 +85,7 @@
         </div>
         <div class="section4">
             <div class="edu clearfix">
-                <p class="about_me">Образование</p>
+                <p class="about_me" id="education">Образование</p>
                 <img class="rect3" src="img/Rectangle_43.png" alt="Rectangle_43">
                 <div class="bubble1">
                     <p class="position">Бакалавр</p><br>
@@ -101,7 +105,7 @@
         </div>
         <div class="section5">
             <div class="skills clearfix">
-                <p class="my_skills">Мои навыки</p>
+                <p class="my_skills" id="skills">Мои навыки</p>
                 <img class="rect3" src="img/Rectangle_43.png" alt="Rectangle_43">
                 <div class="progress_wrapper">
                     <p class="indentation">HTML/CSS - 57%</p>
@@ -165,10 +169,14 @@
                     <h2 class="h2-info">Местоположение</h2>
                     <p class="p-info">350031 г.Краснодар, СНТ "Кубань", ул.Ореховая 13</p>
                 </div>
-                <div class="mail-text"><h2 class="h2-info">Email</h2>
-                    <p class="p-info">alexandrdryagin@yandex.ru</p></div>
-                <div class="phone-text"><h2 class="h2-info">Телефон</h2>
-                    <p class="p-info">+7 (903) 451 85 85</p></div>
+                <div class="mail-text">
+                    <h2 class="h2-info">Email</h2>
+                    <p class="p-info">alexandrdryagin@yandex.ru</p>
+                </div>
+                <div class="phone-text">
+                    <h2 class="h2-info">Телефон</h2>
+                    <p class="p-info">+7 (903) 451 85 85</p>
+                </div>
             </div>
             <div class="social">
                 <p class="disp">
